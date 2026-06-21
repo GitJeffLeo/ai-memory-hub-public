@@ -1,6 +1,10 @@
-# AI Memory Hub - Public Index
+# AI Memory Hub - Public Index (State-Only)
 
-自动生成时间: 2026-06-21 23:30 UTC
+自动生成时间: 2026-06-21 23:39 UTC
+
+---
+
+> ⚠️ 此文件为 AI 设计（state-only）。人类查阅请切换到 `human-log` 分支。
 
 ---
 
@@ -53,7 +57,7 @@ context_sharing: memory_feed_to_cloud
 
 ---
 
-## 2026-06-22.md
+## Latest Daily State (from 2026-06-22)
 
 # Daily Memory - 2026-06-22
 
