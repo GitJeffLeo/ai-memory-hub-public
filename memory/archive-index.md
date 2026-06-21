@@ -22,6 +22,14 @@
 - `system/schema-daily.md` - daily格式定义（v2.0）
 - `system/RULES.md` - 写入规则 + 记忆金字塔读取策略
 
+### 用户画像
+- `memory/identity.md` - 核心身份、沟通风格、人格特质、AI偏好
+- `memory/state.md` - 当前项目状态、财务状态
+
+### CC
+- `memory/identity.md` - 用户CC的完整画像
+- `memory/state.md` - CC的当前项目与状态
+
 ### 汽车获客
 - `daily/2026-06-15.md` - 初始讨论
 - `daily/2026-06-18.md` - 方案设计
