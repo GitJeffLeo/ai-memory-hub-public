@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index
 
-自动生成时间: 2026-06-21 23:12 UTC
+自动生成时间: 2026-06-21 23:13 UTC
 
 ---
 
@@ -53,7 +53,7 @@ context_sharing: memory_feed_to_cloud
 
 ---
 
-## daily/template.md
+## template.md
 
 # Daily Memory - YYYY-MM-DD
 
