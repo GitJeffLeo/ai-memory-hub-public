@@ -15,11 +15,25 @@ projects:
     repo: private (GitJeffLeo/ai-memory-hub)
     public_mirror: GitJeffLeo/ai-memory-hub-public
     last_update: 2026-06-22
+    goal:
+      - 实现跨AI共享记忆
+      - 降低上下文重复输入
+      - 实现AI额度自由切换
+      - 建立长期外置认知层
     key_decisions:
       - 2026-06-22: 采用state-first设计（changes: + state: 分离）
       - 2026-06-22: 分支分离（main供AI读，human-log供人类查阅）
       - 2026-06-22: 记忆金字塔结构（Identity + State + Archive）
     blockers: []
+  
+  personal_ai_ecosystem:
+    status: in-progress
+    goal:
+      - 构建自己的AI入口
+      - 多模型统一调度
+      - 降低使用成本
+      - 避免单一平台绑定
+    last_update: 2026-06-22
   
   github-trending-monitor:
     status: deployed
@@ -34,6 +48,12 @@ projects:
 # 财务状态
 finance:
   status: unstable_cashflow
+  characteristics:
+    - 收入波动较大
+    - 重视现金流
+    - 重视自由度
+    - 关注长期稳定收入
+  goal: 建立稳定收入来源
   last_update: 2026-06-22
 
 # 最近决策（7-30天内）
@@ -41,6 +61,7 @@ recent_decisions:
   - 2026-06-22: 测试多AI共享记忆系统
   - 2026-06-22: 采用state-first设计防止事件膨胀
   - 2026-06-22: 实施记忆金字塔结构（Identity + State + Archive）
+  - 2026-06-22: 从ChatGPT导入用户画像到记忆仓库
   - 2026-06-21: 创建公开仓库供云端AI读取
   - 2026-06-20: 部署GitHub Trending Monitor
 

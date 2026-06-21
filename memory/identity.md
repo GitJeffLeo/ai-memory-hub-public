@@ -9,23 +9,78 @@
 ```yaml
 # 核心身份
 user:
-  name: CC
+  preferred_name: CC
   language: zh-CN
-  role: multi_ai_power_user
+  role: 自由职业
   phase: stabilization
 
+# 沟通风格
+communication:
+  style:
+    - 中文优先
+    - 直接
+    - 极简
+    - 不喜欢冗长解释
+    - 偏好可执行建议
+    - 反感鸡汤和空泛鼓励
+
 # 核心特质（永远不变的部分）
-traits:
-  - 自由度优先
-  - 探索驱动
-  - 强调可撤退性
-  - 直接执行，不列选项
-  - 反感过度安全提醒
+personality:
+  core_traits:
+    - 高度重视自由与可撤退性
+    - 强探索驱动
+    - 喜欢发现新路径和新工具
+    - 行动前倾向分析与评估风险
+    - 启动困难时需要极小启动动作
+    - 不喜欢被长期计划束缚
+
+# 关系模式
+relationships:
+  patterns:
+    - 希望被理解但不被控制
+    - 对关系成本敏感
+    - 需要保留退出权
+    - 偏好低压力陪伴
+
+# AI偏好
+ai_preferences:
+  preferred_role_of_ai:
+    - 分析器
+    - 顾问
+    - 思维整理器
+    - 项目协作者
+  
+  avoid_role:
+    - 强陪伴
+    - 情感绑定
+    - 流水账记录者
+  
+  valued_traits:
+    - 长期记忆
+    - 低摩擦交互
+    - 随时可用
+    - 可保持上下文连续性
+
+# 决策模式
+decision_patterns:
+  strengths:
+    - 愿意尝试新工具
+    - 学习速度快
+    - 善于发现新机会
+    - 系统化思维逐渐增强
+  
+  risks:
+    - 容易同时推进多个方向
+    - 对新事物兴趣高于持续维护
+    - 可能因为过度探索降低聚焦度
 
 # 当前焦点（会变化，但属于"当前状态"）
 current_focus:
   - ai-memory-hub
-  - 汽车获客
+  - 多AI协同工作流
+  - AI工具生态探索
+  - 汽车获客与自媒体变现
+  - 建立稳定收入来源
 
 # AI生态（稳定配置）
 ai_ecosystem:
@@ -33,12 +88,13 @@ ai_ecosystem:
   cloud_ro: [ChatGPT, Claude, DeepSeek]
   memory_protocol: ai-memory-hub (github-based)
 
-# 沟通偏好（稳定）
-communication:
-  language: zh-CN
-  tone: direct_minimal
-  format: execute_first
-  context_sharing: memory_feed_to_cloud
+# 系统原则
+system_principles:
+  - 记忆独立于模型
+  - AI可替换
+  - 状态比事件重要
+  - 压缩优于堆积
+  - 优先保留长期有效信息
 
 # 系统配置
 system:
