@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index (State-Only)
 
-自动生成时间: 2026-06-21 23:44 UTC
+自动生成时间: 2026-06-21 23:50 UTC
 
 ---
 
@@ -10,50 +10,54 @@
 
 ## memory/profile.md
 
-# User Profile
+# Profile (DEPRECATED)
 
-```yaml
-role: multi_ai_power_user
-phase: stabilization
-language: zh-CN
-style: minimal_direct
-security_stance: no_over_remind
-design_priority: extensibility
-```
+> **状态**：已废弃（2026-06-22）  
+> **替代文件**：`memory/identity.md`  
+> **原因**：重构为记忆金字塔结构（Identity + State + Archive）
 
-- 偏好主动执行最优方案，不列选项
-- 反感过度安全提醒
-- 期望 AI 自主读取记忆，拒绝手动贴上下文
+---
+
+本文件内容已迁移至：
+- 核心身份 → `memory/identity.md`
+- 用户画像 → `memory/identity.md`
+
+**不要删除本文件**（防止外部链接失效），但所有 AI 节点应读取 `memory/identity.md`。
 
 ---
 
 ## memory/projects.md
 
-# Projects
+# Projects (DEPRECATED)
 
-```yaml
-ai-memory-hub:
-  status: infra_ready
-  phase: stabilization
-  repo: private
-```
+> **状态**：已废弃（2026-06-22）  
+> **替代文件**：`memory/state.md`  
+> **原因**：重构为记忆金字塔结构（Identity + State + Archive）
+
+---
+
+本文件内容已迁移至：
+- 项目状态 → `memory/state.md`（projects: 字段）
+
+**不要删除本文件**（防止外部链接失效），但所有 AI 节点应读取 `memory/state.md`。
 
 ---
 
 ## memory/preferences.md
 
-# Preferences
+# Preferences (DEPRECATED)
 
-```yaml
-ai_ecosystem:
-  local_rw: [qoder, workbuddy, qclaw, claudecode]
-  cloud_ro: [chatgpt, claude, deepseek]
-communication:
-  language: zh-CN
-  tone: direct_minimal
-  format: execute_first
-context_sharing: memory_feed_to_cloud
-```
+> **状态**：已废弃（2026-06-22）  
+> **替代文件**：`memory/identity.md`  
+> **原因**：重构为记忆金字塔结构（Identity + State + Archive）
+
+---
+
+本文件内容已迁移至：
+- AI生态 → `memory/identity.md`（ai_ecosystem: 字段）
+- 沟通偏好 → `memory/identity.md`（communication: 字段）
+
+**不要删除本文件**（防止外部链接失效），但所有 AI 节点应读取 `memory/identity.md`。
 
 ---
 
