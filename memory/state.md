@@ -10,8 +10,8 @@
 # 项目状态（当前活跃）
 projects:
   ai-memory-hub:
-    status: stabilization
-    phase: infra_ready → stabilization
+    status: stable
+    phase: stabilization → stable
     repo: private (GitJeffLeo/ai-memory-hub)
     public_mirror: GitJeffLeo/ai-memory-hub-public
     last_update: 2026-06-22
@@ -24,8 +24,10 @@ projects:
       - 2026-06-22: 采用state-first设计（changes: + state: 分离）
       - 2026-06-22: 分支分离（main供AI读，human-log供人类查阅）
       - 2026-06-22: 记忆金字塔结构（Identity + State + Archive）
+      - 2026-06-22: 推送频率优化（commit-only，用户触发push）
+      - 2026-06-22: 快捷指令添加（"存档" = 生成daily + push）
     blockers: []
-  
+    next_step: 测试新AI工具是否能接上工作流
   personal_ai_ecosystem:
     status: in-progress
     goal:
