@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index (Memory Pyramid)
 
-自动生成时间: 2026-06-22 02:44 UTC
+自动生成时间: 2026-06-22 05:03 UTC
 
 ---
 
@@ -126,6 +126,11 @@ system:
   memory_repo: ai-memory-hub
   public_repo: ai-memory-hub-public
   index_url: https://raw.githubusercontent.com/GitJeffLeo/ai-memory-hub-public/main/index.md
+
+# 变更溯源（记录关键字段最近一次更新的来源）
+last_updated:
+  review_style: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 82", change: "添加批判性思维偏好"}
+  current_focus: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 73", change: "导入ChatGPT用户画像"}
 ```
 
 ---
@@ -233,6 +238,14 @@ system:
 # 待解决问题
 blockers:
   - 抖音数据抓取受登录墙限制（公开方案不可行）
+
+# 变更溯源（记录关键字段最近一次更新的来源）
+last_updated:
+  ai-memory-hub: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 90-92", change: "状态标记为stable，快捷指令归档"}
+  bangti_project: {date: 2026-06-22, trigger: "raw/qclaw/2026-06-22.md line 38-39", change: "帮提谈判准备完成"}
+  finance: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 73-74", change: "导入ChatGPT财务状态"}
+  recent_decisions: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md", change: "多项系统决策"}
+  claudecode: {date: 2026-06-22, trigger: "raw/claudecode/2026-06-22.md", change: "Claude Code onboarded"}
 ```
 
 ---
@@ -318,6 +331,18 @@ blockers:
 ### GitHub Trending Monitor
 - `daily/2026-06-20.md` - 部署记录
 - `memory/state.md` - 当前状态（deployed）
+
+### ci_validation / format_drift
+- `daily/2026-06-22.md` - CI validate.yml + raw/daily/memory 格式校验 + 格式漂移修正
+- `.github/workflows/validate.yml` - CI 自动校验 workflow
+- `system/schema-daily.md` - v3.0 tags 字段
+
+### archive_checklist / tags / traceability
+- `daily/2026-06-22.md` - 存档检查清单 + 标签体系 + 版本溯源
+- `system/archive-checklist.md` - 6 步存档检查清单
+- `system/schema-daily.md` - v3.0 12 标签封闭集合
+- `memory/identity.md` - last_updated 溯源字段
+- `memory/state.md` - last_updated 溯源字段
 
 ---
 

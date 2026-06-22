@@ -97,6 +97,14 @@ system:
 # 待解决问题
 blockers:
   - 抖音数据抓取受登录墙限制（公开方案不可行）
+
+# 变更溯源（记录关键字段最近一次更新的来源）
+last_updated:
+  ai-memory-hub: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 90-92", change: "状态标记为stable，快捷指令归档"}
+  bangti_project: {date: 2026-06-22, trigger: "raw/qclaw/2026-06-22.md line 38-39", change: "帮提谈判准备完成"}
+  finance: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 73-74", change: "导入ChatGPT财务状态"}
+  recent_decisions: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md", change: "多项系统决策"}
+  claudecode: {date: 2026-06-22, trigger: "raw/claudecode/2026-06-22.md", change: "Claude Code onboarded"}
 ```
 
 ---

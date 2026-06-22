@@ -68,6 +68,18 @@
 - `daily/2026-06-20.md` - 部署记录
 - `memory/state.md` - 当前状态（deployed）
 
+### ci_validation / format_drift
+- `daily/2026-06-22.md` - CI validate.yml + raw/daily/memory 格式校验 + 格式漂移修正
+- `.github/workflows/validate.yml` - CI 自动校验 workflow
+- `system/schema-daily.md` - v3.0 tags 字段
+
+### archive_checklist / tags / traceability
+- `daily/2026-06-22.md` - 存档检查清单 + 标签体系 + 版本溯源
+- `system/archive-checklist.md` - 6 步存档检查清单
+- `system/schema-daily.md` - v3.0 12 标签封闭集合
+- `memory/identity.md` - last_updated 溯源字段
+- `memory/state.md` - last_updated 溯源字段
+
 ---
 
 ## 自动更新规则

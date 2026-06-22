@@ -109,4 +109,9 @@ system:
   memory_repo: ai-memory-hub
   public_repo: ai-memory-hub-public
   index_url: https://raw.githubusercontent.com/GitJeffLeo/ai-memory-hub-public/main/index.md
+
+# 变更溯源（记录关键字段最近一次更新的来源）
+last_updated:
+  review_style: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 82", change: "添加批判性思维偏好"}
+  current_focus: {date: 2026-06-22, trigger: "raw/workbuddy/2026-06-22.md line 73", change: "导入ChatGPT用户画像"}
 ```
