@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index (Memory Pyramid)
 
-自动生成时间: 2026-06-22 00:48 UTC
+自动生成时间: 2026-06-22 00:56 UTC
 
 ---
 
@@ -173,6 +173,25 @@ projects:
       - 避免单一平台绑定
     last_update: 2026-06-22
   
+  bangti_auto_leads:
+    status: negotiation
+    phase: validation
+    model: content_traffic_to_lead_to_referral_to_commission
+    role: traffic acquisition + customer touchpoint
+    leads_count: ~9
+    current_focus: commission rules and settlement terms
+    key_risks:
+      - client ownership clarity (risk of bypass)
+      - commission settlement cycle and delay
+      - deal transparency (price manipulation)
+      - traffic ownership control
+      - first deal clean close
+    core_questions:
+      - long-term scalability
+      - low-margin traffic intermediary
+      - sustainable cashflow vs one-off
+    last_update: 2026-06-22
+    source: ChatGPT synced to QClaw
   github-trending-monitor:
     status: deployed
     url: https://xxx.github.io/xxx
