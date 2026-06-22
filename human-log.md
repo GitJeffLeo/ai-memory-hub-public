@@ -12,7 +12,7 @@
 
 ## MACHINE LAYER
 
-```yaml
+`yaml
 # 状态块（累积，不膨胀）
 state:
   memory_system: stable
@@ -23,37 +23,39 @@ state:
   reading_strategy: pyramid-model (identity + state + archive)
   push_frequency: commit-only (no push, user triggers)
   shortcut_commands: enabled (推送/push/同步, 存档)
+  qclaw: onboarded
 
 # 变化块（只写当天，不累积历史）
 changes:
   - ai-memory-hub: 4 optimization plans deployed (schema固化, 压缩链标准化, memory防污染, raw自动归档)
-  - ai-memory-hub: state-first refactoring (events → changes + state separation)
+  - ai-memory-hub: state-first refactoring (events -> changes + state separation)
   - ai-memory-hub: memory pyramid structure deployed (identity + state + archive)
   - ai-memory-hub: user profile imported (communication style, traits, AI preferences)
   - ai-memory-hub: review_style updated (critical thinking, point out omissions)
   - ai-memory-hub: push frequency optimized (commit-only, user triggers push)
-  - ai-memory-hub: shortcut commands added ("存档" = generate daily + push)
+  - ai-memory-hub: shortcut commands added (存档 = generate daily + push)
+  - qclaw: onboarded to ai-memory-hub (read schema, wrote raw log, synced identity)
+  - qclaw: identified user preference for Chinese thinking blocks
 
 # 当前 blocker（如果有）
 blockers: []
-```
+`
 
 ---
 
 ## HUMAN LAYER
 
-> **此层不生成**。需要时调用 `system/restore-human-layer.md` 的 prompt 从 raw + MACHINE LAYER 复原。
+> **此层不生成**。需要时调用 system/restore-human-layer.md 的 prompt 从 raw + MACHINE LAYER 复原。
 
 ---
 
 ## 压缩元数据
 
-- **压缩时间**：2026-06-22 08:29 UTC+8
-- **压缩节点**：WorkBuddy
-- **输入文件**：`raw/workbuddy/2026-06-22.md`
+- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 08:36 UTC+8 (Qclaw)
+- **压缩节点**：WorkBuddy, Qclaw
+- **输入文件**：raw/workbuddy/2026-06-22.md, raw/qclaw/2026-06-22.md
 - **去重规则版本**：v1.0
 - **压缩链版本**：v3.0（state-first 哲学）
-- **下一步**：更新 `memory/archive-index.md`（Step 6）
-
+- **下一步**：更新 memory/archive-index.md（Step 6）
 ---
 
