@@ -1,6 +1,6 @@
 # AI Memory Hub - Human Log
 
-自动生成时间: 2026-06-22 02:33 UTC
+自动生成时间: 2026-06-22 02:45 UTC
 
 > 📖 此文件为人类设计（包含详细 daily 内容）。AI 请读取 `index.md`（state-only）。
 
@@ -12,7 +12,7 @@
 
 ## MACHINE LAYER
 
-`yaml
+```yaml
 # 状态块（累积，不膨胀）
 state:
   memory_system: stable
@@ -24,18 +24,21 @@ state:
   push_frequency: commit-only (no push, user triggers)
   shortcut_commands: enabled (推送/push/同步, 存档)
   qclaw: onboarded
+  claudecode: onboarded
   bangti_project: negotiation_preparation_complete
 
 # 变化块（只写当天，不累积历史）
-changes:  await_hub_archive-index: updated with bangti/auto-reply/miflash/qclaw entries
-
+changes:
+  - claudecode: connected to ai-memory-hub, read full memory pyramid (identity + state + archive)
+  - claudecode: wrote first raw log (raw/claudecode/2026-06-22.md, 23 lines)
+  - claudecode: verified write capability, commit 87da153
+  - claudecode: tested "存档" shortcut command successfully
   - ai-memory-hub: dedup-rules v1.1 added (technical-layer pre-write check)
   - ai-memory-hub: conflict detection rules added to rules.md
   - ai-memory-hub: RULES.md corrupted by API retry, fixed via redirect to rules.md
   - ai-memory-hub: schema-raw v1.1 added (standard entry format: source/action/object/result)
   - ai-memory-hub: raw pre-write checklist added to rules.md (dedup+format+fact+sensitive 4-item check)
   - ai-memory-hub: qclaw node onboarded and registered in rules.md
-
   - ai-memory-hub: 4 optimization plans deployed (schema固化, 压缩链标准化, memory防污染, raw自动归档)
   - ai-memory-hub: state-first refactoring (events -> changes + state separation)
   - ai-memory-hub: memory pyramid structure deployed (identity + state + archive)
@@ -48,11 +51,12 @@ changes:  await_hub_archive-index: updated with bangti/auto-reply/miflash/qclaw 
   - qclaw: synced bangti business context from ChatGPT discussion
   - qclaw: discussed bangti negotiation strategy with user (attribution, settlement, commission, anti-bypass)
   - qclaw: generated bangti negotiation memo for user
+  - qclaw: proposed 5 architecture insights (archive build, dedup tech layer, conflict detection, token risk, ClaudeCode write spec)
   - bangti: negotiation preparation complete, user about to discuss with partner company
 
 # 当前 blocker（如果有）
 blockers: []
-`
+```
 
 ---
 
@@ -64,9 +68,9 @@ blockers: []
 
 ## 压缩元数据
 
-- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 09:21 UTC+8 (Qclaw)
-- **压缩节点**：WorkBuddy, Qclaw
-- **输入文件**：raw/workbuddy/2026-06-22.md, raw/qclaw/2026-06-22.md
+- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 09:21 UTC+8 (Qclaw) / 10:41 UTC+8 (Claude Code)
+- **压缩节点**：WorkBuddy, Qclaw, Claude Code
+- **输入文件**：raw/workbuddy/2026-06-22.md, raw/qclaw/2026-06-22.md, raw/claudecode/2026-06-22.md, raw/qoder/2026-06-22.md
 - **去重规则版本**：v1.0
 - **压缩链版本**：v3.0（state-first 哲学）
 - **下一步**：更新 memory/archive-index.md（Step 6）
