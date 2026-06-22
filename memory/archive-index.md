@@ -17,14 +17,40 @@
 ## 关键词索引
 
 ### ai-memory-hub
-- `daily/2026-06-22.md` - 系统初始化、state-first重构、记忆金字塔设计
-- `system/compression-prompt.md` - 压缩规则（v3.0）
-- `system/schema-daily.md` - daily格式定义（v2.0）
-- `system/RULES.md` - 写入规则 + 记忆金字塔读取策略
+- `daily/2026-06-22.md` - 系统初始化、4优化方案、state-first重构、记忆金字塔设计、推送频率优化、快捷指令
+- `system/compression-prompt.md` - 压缩规则（v3.0，多步压缩链 + state-first）
+- `system/schema-daily.md` - daily格式定义（v2.0，changes + state分离）
+- `system/RULES.md` - 写入规则 + 记忆金字塔读取策略 + 快捷指令
+
+### 记忆金字塔
+- `daily/2026-06-22.md` - 记忆金字塔设计（Identity + State + Archive）
+- `memory/identity.md` - 金字塔第一层（用户身份、特质、偏好）
+- `memory/state.md` - 金字塔第二层（项目状态、财务状态）
+
+### state-first
+- `daily/2026-06-22.md` - state-first重构（events → changes + state分离）
+- `system/schema-daily.md` - v2.0格式（changes: + state:）
+- `system/compression-prompt.md` - v3.0压缩链（state-first哲学）
+
+### 压缩链
+- `daily/2026-06-22.md` - 多步压缩链部署（去重 → 抽象化 → 状态推导 → 分层输出 → Schema校验）
+- `system/compression-prompt.md` - v3.0（抄LangChain Summary Chain逻辑）
 
 ### 用户画像
-- `memory/identity.md` - 核心身份、沟通风格、人格特质、AI偏好
-- `memory/state.md` - 当前项目状态、财务状态
+- `memory/identity.md` - 核心身份、沟通风格、人格特质、AI偏好、决策模式
+- `daily/2026-06-22.md` - 用户画像导入记录
+
+### 批判性思维
+- `memory/identity.md` - review_style（批判性思维、指出遗漏）
+- `daily/2026-06-22.md` - AI批判性思维偏好更新
+
+### 推送频率
+- `daily/2026-06-22.md` - 推送频率优化（commit-only，用户触发push）
+- `system/RULES.md` - Git规范更新
+
+### 快捷指令
+- `daily/2026-06-22.md` - 快捷指令"存档"添加（生成daily + push）
+- `system/RULES.md` - 快捷指令章节添加
 
 ### CC
 - `memory/identity.md` - 用户CC的完整画像

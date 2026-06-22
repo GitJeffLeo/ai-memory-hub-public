@@ -1,6 +1,6 @@
 # AI Memory Hub - Human Log
 
-自动生成时间: 2026-06-22 00:13 UTC
+自动生成时间: 2026-06-22 00:29 UTC
 
 > 📖 此文件为人类设计（包含详细 daily 内容）。AI 请读取 `index.md`（state-only）。
 
@@ -13,24 +13,47 @@
 ## MACHINE LAYER
 
 ```yaml
-project_status: infra_ready → stabilization
-events:
-  - ai-memory-hub: initialized (private repo, 3-layer, 7 sources)
-  - dual_layer_format: adopted → upgraded to machine-layer-only
-  - memory_compression_v1: deployed
-  - workbuddy_raw_log: created (raw/workbuddy/2026-06-22.md)
-  - system_rules: updated (daily trigger = ask user each turn)
-  - deduplication_rules: defined (system/dedup-rules.md)
-  - memory_trigger_rules: defined (only on fundamental state change)
-  - human_layer: disabled in daily (on-demand restoration via system/restore-human-layer.md)
-  - monthly_report: planned (30-day compression + raw archive)
-  - public_sync: planned (github actions → public repo for cloud AI access)
-blockers:
-  - chatgpt: cannot access private github repo (pending public repo setup)
-  - douyin_data: requires app or third-party platform login
-  - cloud_ai_autonomous_read: blocked by private repo (solution: public repo + github actions)
-state: system built, rules clarified, entering stable operation
+# 状态块（累积，不膨胀）
+state:
+  memory_system: stable
+  github_sync: public_bridge_ready
+  compression: v3_active (multi-step + state-first)
+  archive_policy: monthly (auto-archive > 30 days)
+  schema: v2.0 (state-first)
+  reading_strategy: pyramid-model (identity + state + archive)
+  push_frequency: commit-only (no push, user triggers)
+  shortcut_commands: enabled (推送/push/同步, 存档)
+
+# 变化块（只写当天，不累积历史）
+changes:
+  - ai-memory-hub: 4 optimization plans deployed (schema固化, 压缩链标准化, memory防污染, raw自动归档)
+  - ai-memory-hub: state-first refactoring (events → changes + state separation)
+  - ai-memory-hub: memory pyramid structure deployed (identity + state + archive)
+  - ai-memory-hub: user profile imported (communication style, traits, AI preferences)
+  - ai-memory-hub: review_style updated (critical thinking, point out omissions)
+  - ai-memory-hub: push frequency optimized (commit-only, user triggers push)
+  - ai-memory-hub: shortcut commands added ("存档" = generate daily + push)
+
+# 当前 blocker（如果有）
+blockers: []
 ```
+
+---
+
+## HUMAN LAYER
+
+> **此层不生成**。需要时调用 `system/restore-human-layer.md` 的 prompt 从 raw + MACHINE LAYER 复原。
+
+---
+
+## 压缩元数据
+
+- **压缩时间**：2026-06-22 08:29 UTC+8
+- **压缩节点**：WorkBuddy
+- **输入文件**：`raw/workbuddy/2026-06-22.md`
+- **去重规则版本**：v1.0
+- **压缩链版本**：v3.0（state-first 哲学）
+- **下一步**：更新 `memory/archive-index.md`（Step 6）
 
 ---
 
