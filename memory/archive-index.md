@@ -85,3 +85,18 @@
 
 - 超过30天的索引条目 → 移到`archive-index-archive.md`
 - 同一关键词超过3个文件 → 只保留最新的3个
+
+### bangti / auto_leads / commission / referral
+- `daily/2026-06-22.md` - bangti business context, negotiation strategy, memo
+- `memory/state.md` - bangti_auto_leads project status
+- `raw/qclaw/2026-06-22.md` - bangti business facts
+
+### auto_reply / douyin / wechat / RPA
+- `raw/qclaw/2026-06-22.md` - auto-reply research
+
+### miflash / driver / flash
+- `raw/qclaw/2026-06-22.md` - miflash driver fix
+
+### qclaw_onboard
+- `daily/2026-06-22.md` - qclaw onboarded
+- `raw/qclaw/2026-06-22.md` - qclaw first raw
