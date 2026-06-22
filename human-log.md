@@ -1,6 +1,6 @@
 # AI Memory Hub - Human Log
 
-自动生成时间: 2026-06-22 02:45 UTC
+自动生成时间: 2026-06-22 05:03 UTC
 
 > 📖 此文件为人类设计（包含详细 daily 内容）。AI 请读取 `index.md`（state-only）。
 
@@ -13,46 +13,51 @@
 ## MACHINE LAYER
 
 ```yaml
+# 标签（标准化，用于 archive-index 自动索引）
+tags: [memory-system, onboarding, architecture, ai_tools]
+
 # 状态块（累积，不膨胀）
 state:
   memory_system: stable
   github_sync: public_bridge_ready
   compression: v3_active (multi-step + state-first)
   archive_policy: monthly (auto-archive > 30 days)
-  schema: v2.0 (state-first)
+  schema_daily: v3.0 (tags field added)
   reading_strategy: pyramid-model (identity + state + archive)
   push_frequency: commit-only (no push, user triggers)
   shortcut_commands: enabled (推送/push/同步, 存档)
+  ci_validation: enabled (validate.yml)
+  archive_checklist: enabled (archive-checklist.md)
+  tags_system: v1.0 (12 standardized tags)
+  memory_traceability: enabled (last_updated field)
   qclaw: onboarded
   claudecode: onboarded
   bangti_project: negotiation_preparation_complete
 
 # 变化块（只写当天，不累积历史）
 changes:
-  - claudecode: connected to ai-memory-hub, read full memory pyramid (identity + state + archive)
-  - claudecode: wrote first raw log (raw/claudecode/2026-06-22.md, 23 lines)
-  - claudecode: verified write capability, commit 87da153
-  - claudecode: tested "存档" shortcut command successfully
+  - claudecode: connected to ai-memory-hub, read full memory pyramid
+  - claudecode: wrote first raw log, verified write capability
+  - claudecode: proposed 7 critical architecture issues and executed all 6 fixes
+  - ai-memory-hub: rules.md merged and simplified (284→170 lines, removed RULES.md ambiguity)
+  - ai-memory-hub: archive-index merge strategy added (grep-before-write dedup)
+  - ai-memory-hub: archive-checklist.md created (6-step automated verification)
+  - ai-memory-hub: CI validation workflow deployed (validate.yml: raw format + YAML syntax + dedup + tags)
+  - ai-memory-hub: format drift fixed (qclaw garbled encoding restored, qoder sessions normalized, workbuddy dupes removed)
+  - ai-memory-hub: schema-daily v3.0 with standardized tags system (12-tag closed set)
+  - ai-memory-hub: memory traceability added (last_updated field in identity.md + state.md)
   - ai-memory-hub: dedup-rules v1.1 added (technical-layer pre-write check)
   - ai-memory-hub: conflict detection rules added to rules.md
-  - ai-memory-hub: RULES.md corrupted by API retry, fixed via redirect to rules.md
-  - ai-memory-hub: schema-raw v1.1 added (standard entry format: source/action/object/result)
-  - ai-memory-hub: raw pre-write checklist added to rules.md (dedup+format+fact+sensitive 4-item check)
-  - ai-memory-hub: qclaw node onboarded and registered in rules.md
+  - ai-memory-hub: schema-raw v1.1 added (standard entry format)
+  - ai-memory-hub: raw pre-write checklist added to rules.md
   - ai-memory-hub: 4 optimization plans deployed (schema固化, 压缩链标准化, memory防污染, raw自动归档)
   - ai-memory-hub: state-first refactoring (events -> changes + state separation)
-  - ai-memory-hub: memory pyramid structure deployed (identity + state + archive)
-  - ai-memory-hub: user profile imported (communication style, traits, AI preferences)
-  - ai-memory-hub: review_style updated (critical thinking, point out omissions)
-  - ai-memory-hub: push frequency optimized (commit-only, user triggers push)
-  - ai-memory-hub: shortcut commands added (存档 = generate daily + push)
-  - qclaw: onboarded to ai-memory-hub (read schema, wrote raw log, synced identity)
-  - qclaw: identified user preference for Chinese thinking blocks
-  - qclaw: synced bangti business context from ChatGPT discussion
-  - qclaw: discussed bangti negotiation strategy with user (attribution, settlement, commission, anti-bypass)
-  - qclaw: generated bangti negotiation memo for user
-  - qclaw: proposed 5 architecture insights (archive build, dedup tech layer, conflict detection, token risk, ClaudeCode write spec)
-  - bangti: negotiation preparation complete, user about to discuss with partner company
+  - ai-memory-hub: memory pyramid structure deployed
+  - ai-memory-hub: user profile imported from ChatGPT
+  - qclaw: onboarded to ai-memory-hub, wrote first raw log
+  - qclaw: synced bangti business context, generated negotiation memo
+  - qclaw: proposed 5 architecture insights
+  - bangti: negotiation preparation complete
 
 # 当前 blocker（如果有）
 blockers: []
@@ -68,7 +73,7 @@ blockers: []
 
 ## 压缩元数据
 
-- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 09:21 UTC+8 (Qclaw) / 10:41 UTC+8 (Claude Code)
+- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 09:21 UTC+8 (Qclaw) / 10:41 UTC+8 (Claude Code) / 12:59 UTC+8 (Claude Code round 2)
 - **压缩节点**：WorkBuddy, Qclaw, Claude Code
 - **输入文件**：raw/workbuddy/2026-06-22.md, raw/qclaw/2026-06-22.md, raw/claudecode/2026-06-22.md, raw/qoder/2026-06-22.md
 - **去重规则版本**：v1.0
