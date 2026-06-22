@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index (Memory Pyramid)
 
-自动生成时间: 2026-06-22 05:29 UTC
+自动生成时间: 2026-06-22 06:21 UTC
 
 ---
 
@@ -281,9 +281,9 @@ last_updated:
 ## 关键词索引
 
 ### ai-memory-hub
-- `daily/2026-06-22.md` - 系统初始化、4优化方案、state-first重构、记忆金字塔设计、推送频率优化、快捷指令
+- `daily/2026-06-22.md` - 系统初始化、4优化方案、state-first重构、记忆金字塔设计、推送频率优化、快捷指令、按AI节点分组格式
 - `system/compression-prompt.md` - 压缩规则（v3.0，多步压缩链 + state-first）
-- `system/schema-daily.md` - daily格式定义（v2.0，changes + state分离）
+- `system/schema-daily.md` - daily格式定义（v3.0，按AI节点分组 + tags）
 - `system/RULES.md` - 写入规则 + 记忆金字塔读取策略 + 快捷指令
 
 ### 记忆金字塔
@@ -377,7 +377,19 @@ last_updated:
 ### miflash / driver / flash
 - `raw/qclaw/2026-06-22.md` - miflash driver fix
 
-### qclaw
-- `daily/2026-06-22.md` - qclaw onboarded, architecture insights, token risk
-- `raw/qclaw/2026-06-22.md` - qclaw first raw (onboard + bangti + auto-reply + miflash + RULES fix + ClaudeCode write spec)
+### shadowbot / uninstall / rpa
+- `daily/2026-06-22.md` - ShadowBot 彻底卸载（进程/启动项/安装目录/用户数据/注册表/快捷方式）
+- `raw/qclaw/2026-06-22.md` - 卸载详细步骤
+
+### elevated_tools / uac / tools.elevated
+- `daily/2026-06-22.md` - 开启 tools.elevated 配置（webchat 渠道 UAC 提权）
+- `raw/qclaw/2026-06-22.md` - 配置修改详情
+
+### shortcut_overlay / arrow / registry
+- `daily/2026-06-22.md` - 去除快捷方式箭头角标（注册表 Shell Icons→29 + 计划任务自动修复）
+- `raw/qclaw/2026-06-22.md` - 修复脚本和计划任务详情
+
+### 读档 / pull / shortcut_commands
+- `daily/2026-06-22.md` - 添加"读档"快捷指令（从 GitHub 拉取最新记忆）
+- `MEMORY.md` - 快捷指令定义（存档/读档/推送/拉取）
 
