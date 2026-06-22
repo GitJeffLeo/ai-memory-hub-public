@@ -24,6 +24,7 @@ state:
   push_frequency: commit-only (no push, user triggers)
   shortcut_commands: enabled (推送/push/同步, 存档)
   qclaw: onboarded
+  bangti_project: negotiation_phase
 
 # 变化块（只写当天，不累积历史）
 changes:
@@ -36,6 +37,10 @@ changes:
   - ai-memory-hub: shortcut commands added (存档 = generate daily + push)
   - qclaw: onboarded to ai-memory-hub (read schema, wrote raw log, synced identity)
   - qclaw: identified user preference for Chinese thinking blocks
+  - qclaw: synced bangti business context from ChatGPT discussion
+  - qclaw: discussed bangti negotiation strategy with user (attribution, settlement, commission, anti-bypass)
+  - qclaw: generated bangti negotiation memo for user
+  - bangti: negotiation preparation complete, user about to discuss with partner company
 
 # 当前 blocker（如果有）
 blockers: []
@@ -51,7 +56,7 @@ blockers: []
 
 ## 压缩元数据
 
-- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 08:36 UTC+8 (Qclaw)
+- **压缩时间**：2026-06-22 08:29 UTC+8 (WorkBuddy) / 09:21 UTC+8 (Qclaw)
 - **压缩节点**：WorkBuddy, Qclaw
 - **输入文件**：raw/workbuddy/2026-06-22.md, raw/qclaw/2026-06-22.md
 - **去重规则版本**：v1.0
