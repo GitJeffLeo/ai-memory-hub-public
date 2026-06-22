@@ -1,6 +1,6 @@
 # AI Memory Hub - Public Index (Memory Pyramid)
 
-自动生成时间: 2026-06-22 02:32 UTC
+自动生成时间: 2026-06-22 02:44 UTC
 
 ---
 
@@ -337,20 +337,9 @@ blockers:
 - 超过30天的索引条目 → 移到`archive-index-archive.md`
 - 同一关键词超过3个文件 → 只保留最新的3个
 
-### bangti / auto_leads / commission / referral
-- `daily/2026-06-22.md` - bangti business context, negotiation strategy, memo
-- `memory/state.md` - bangti_auto_leads project status
-- `raw/qclaw/2026-06-22.md` - bangti business facts
-
-### auto_reply / douyin / wechat / RPA
-- `raw/qclaw/2026-06-22.md` - auto-reply research
-
-### miflash / driver / flash
-- `raw/qclaw/2026-06-22.md` - miflash driver fix
-
-### qclaw_onboard
-- `daily/2026-06-22.md` - qclaw onboarded
-- `raw/qclaw/2026-06-22.md` - qclaw first raw
+### Claude Code / claudecode
+- `daily/2026-06-22.md` - Claude Code onboarded, write capability verified
+- `raw/claudecode/2026-06-22.md` - Claude Code first raw log
 
 ### bangti / auto_leads / commission / referral
 - `daily/2026-06-22.md` - bangti business context, negotiation strategy, memo
@@ -363,22 +352,7 @@ blockers:
 ### miflash / driver / flash
 - `raw/qclaw/2026-06-22.md` - miflash driver fix
 
-### qclaw_onboard
-- `daily/2026-06-22.md` - qclaw onboarded
-- `raw/qclaw/2026-06-22.md` - qclaw first raw
-
-### bangti / auto_leads / commission / referral
-- `daily/2026-06-22.md` - bangti business context, negotiation strategy, memo
-- `memory/state.md` - bangti_auto_leads project status
-- `raw/qclaw/2026-06-22.md` - bangti business facts
-
-### auto_reply / douyin / wechat / RPA
-- `raw/qclaw/2026-06-22.md` - auto-reply research
-
-### miflash / driver / flash
-- `raw/qclaw/2026-06-22.md` - miflash driver fix
-
-### qclaw_onboard
-- `daily/2026-06-22.md` - qclaw onboarded
-- `raw/qclaw/2026-06-22.md` - qclaw first raw
+### qclaw
+- `daily/2026-06-22.md` - qclaw onboarded, architecture insights, token risk
+- `raw/qclaw/2026-06-22.md` - qclaw first raw (onboard + bangti + auto-reply + miflash + RULES fix + ClaudeCode write spec)
 
